@@ -6,4 +6,4 @@ WORKDIR /app
 COPY HelloWorld.java .
 
 RUN javac HelloWorld.java
-CMD ["java", "Hello-World"]
+CMD ["java", "HelloWorld"]
